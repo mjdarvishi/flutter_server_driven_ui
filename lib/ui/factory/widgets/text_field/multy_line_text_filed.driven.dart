@@ -14,16 +14,9 @@ class MultyLineTextFieldDriven extends TextFieldFactory {
       title: schema.name,
       value: controller.findValue(schema.key),
       selectCallBack: (value) {
-        if (schema.getValidation == null) {
-          controller.updateValues(schema.key, value);
-        } else {
-          if (schema.getValidation!(value) == null) {
-            controller.updateValues(schema.key, value);
-          }
-          controller.validateForm();
-        }
+        controller.updateValues(schema.key, value);
+        controller.validateForm();
       },
-      validator: schema.getValidation,
       clearCallBack: schema.essencial
           ? null
           : () {

@@ -17,3 +17,12 @@ Map<String, dynamic> copyDeepMap(Map<String, dynamic> map) {
   return newMap;
 }
 
+String convertToString(dynamic value){
+  if(value is int) {
+    return value.toString();
+  }
+  if(value==null){
+    return 'not register';
+  }
+  return value as String;
+}

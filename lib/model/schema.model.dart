@@ -2,6 +2,11 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:json_annotation/json_annotation.dart';
+import 'package:server_driven_ui/ui/factory/widgets/rang.dart';
+import 'package:server_driven_ui/ui/factory/widgets/selection/selection_factory.dart';
+import 'package:server_driven_ui/ui/factory/widgets/switch.dart';
+import 'package:server_driven_ui/ui/factory/widgets/text_field/text_field_factory.dart';
+import 'package:server_driven_ui/utils/utils.dart';
 
 part 'schema.model.g.dart';
 
@@ -107,21 +112,6 @@ class TextFieldSchemaModel extends InputFieldSchemaModel {
       _$TextFieldSchemaModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$TextFieldSchemaModelToJson(this);
-
-  validationFunc? get getValidation {
-    if (essencial) {
-      if (key == 'family' || key == 'name') {
-        return validName;
-      }
-      if (key == 'age') {
-        return validAgeBuilding;
-      }
-      if (key == 'description') {
-        return validAddress;
-      }
-    }
-    return null;
-  }
 
   @override
   Widget buildWidget() {

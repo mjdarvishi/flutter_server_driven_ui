@@ -1,9 +1,9 @@
 import 'package:get/get.dart';
-import 'package:server_driven_ui/model/schema.model.dart';
-import 'package:server_driven_ui/ui/factory/base_widget.dart';
-import 'package:server_driven_ui/ui/factory/widgets/selection/multy_item_selction.dart';
-import 'package:server_driven_ui/ui/factory/widgets/selection/single_item_selection.driven.dart';
-import 'package:server_driven_ui/ui/form.controller.dart';
+import 'package:custom_server_driven_ui/model/schema.model.dart';
+import 'package:custom_server_driven_ui/ui/factory/base_widget.dart';
+import 'package:custom_server_driven_ui/ui/factory/widgets/selection/multy_item_selction.dart';
+import 'package:custom_server_driven_ui/ui/factory/widgets/selection/single_item_selection.driven.dart';
+import 'package:custom_server_driven_ui/ui/form.controller.dart';
 
 
 abstract class SelectionFactory extends BaseDrivenUiInputWidget<SelectionSchemaModel> {

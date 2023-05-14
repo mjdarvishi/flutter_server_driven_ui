@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:server_driven_ui/model/schema.model.dart';
-import 'package:server_driven_ui/ui/factory/base_widget.dart';
-import 'package:server_driven_ui/ui/form.controller.dart';
+import 'package:custom_server_driven_ui/model/schema.model.dart';
+import 'package:custom_server_driven_ui/ui/factory/base_widget.dart';
+import 'package:custom_server_driven_ui/ui/form.controller.dart';
 
 class SwitchDriven extends BaseDrivenUiStateFullWidget<SwitchSchemaModel> {
   const SwitchDriven({super.key, required schema}) : super(schema);

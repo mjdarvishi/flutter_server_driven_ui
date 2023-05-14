@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:server_driven_ui/model/schema.model.dart';
-import 'package:server_driven_ui/ui/factory/widgets/text_field/text_field_factory.dart';
-import 'package:server_driven_ui/widget/custom_text_field.dart';
+import 'package:custom_server_driven_ui/model/schema.model.dart';
+import 'package:custom_server_driven_ui/ui/factory/widgets/text_field/text_field_factory.dart';
+import 'package:custom_server_driven_ui/widget/custom_text_field.dart';
 
 class SingleLineTextFieldDriven extends TextFieldFactory {
   SingleLineTextFieldDriven({

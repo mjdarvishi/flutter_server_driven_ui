@@ -1,5 +1,5 @@
 
-import 'package:server_driven_ui/model/schema.model.dart';
+import 'package:custom_server_driven_ui/model/schema.model.dart';
 
 Map<String, dynamic> copyDeepMap(Map<String, dynamic> map) {
   Map<String, dynamic> newMap = {};

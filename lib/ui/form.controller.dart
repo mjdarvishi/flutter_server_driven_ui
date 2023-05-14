@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:server_driven_ui/model/schema.model.dart';
-import 'package:server_driven_ui/utils/utils.dart';
+import 'package:custom_server_driven_ui/model/schema.model.dart';
+import 'package:custom_server_driven_ui/utils/utils.dart';
 
 class FormController extends GetxController {
   Rx<Map<String, dynamic>> values = Rx({});

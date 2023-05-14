@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:server_driven_ui/widget/border_style.dart';
-import 'package:server_driven_ui/widget/button.dart';
+import 'package:custom_server_driven_ui/widget/border_style.dart';
+import 'package:custom_server_driven_ui/widget/button.dart';
 
 class ShowMultyTextFieldModal extends StatefulWidget {
   String title;

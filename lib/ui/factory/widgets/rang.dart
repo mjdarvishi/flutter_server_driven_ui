@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:server_driven_ui/model/schema.model.dart';
-import 'package:server_driven_ui/ui/factory/base_widget.dart';
-import 'package:server_driven_ui/ui/form.controller.dart';
-import 'package:server_driven_ui/widget/show_filter_widget.dart';
+import 'package:custom_server_driven_ui/model/schema.model.dart';
+import 'package:custom_server_driven_ui/ui/factory/base_widget.dart';
+import 'package:custom_server_driven_ui/ui/form.controller.dart';
+import 'package:custom_server_driven_ui/widget/show_filter_widget.dart';
 
 class RangDriven extends BaseDrivenUiWidget<RangSchemaModel> {
   final controller = Get.find<FormController>();

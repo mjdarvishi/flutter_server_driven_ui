@@ -1,7 +1,7 @@
 name: server_driven_ui
 description: server driven ui package which help you to make your ui dynamic
 version: 0.0.1
-homepage:
+homepage: https://github.com/mjdarvishi/flutter_server_driven_ui
 
 environment:
   sdk: '>=2.19.2 <3.0.0'
